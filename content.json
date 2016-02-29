@@ -1,0 +1,28 @@
+{
+
+	"name_one": "imal hasaranga perera",
+	"friend": {
+		"name": "imal",
+		"friend": {
+			"name": "sumal",
+			"friend": null
+		}
+	},
+	"Arr": [{
+		"age": 10,
+		"Arr": [{
+			"age": 10,
+			"Arr": [{
+				"age": 10,
+				"Arr": []
+			}]
+		}]
+	}],
+
+	"teachers": [{
+		"name": "teach1"
+	}, {
+		"name": "teach1"
+	}]
+
+}
