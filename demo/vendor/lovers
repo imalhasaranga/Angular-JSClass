@@ -1,0 +1,5 @@
+<ul style="margin-left:40px" ng-repeat="loverx in lover.getLoves()" >
+                        <li>Name : {{loverx.getName()}}</li>
+                        <li>age : {{loverx.getAge()}}</li>
+                        <li>Other Affairs of : {{lover.getName()}} --></li>
+                    </ul>
