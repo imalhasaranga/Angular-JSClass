@@ -1,13 +1,13 @@
 # ngJSClass (angular-JsClass)
 
 
- Working with litaral notationed objects in angularJs is fine but when the codebase is getting bigger and bigger doing that create problems, specially when you are working with a REST api, to understand the stracture of the Object generated after consuming a particular api developers allways have to reffer the Documentation, This is not a problem with a small project but when things are getting bigger dayanamically typed language like javascript create more problem of maintaining the codebase than any other typed language, so it is always better to work with classes ( prototype or constractor notation )
+ Working with litaral notationed objects in angularJs is fine but when the codebase is getting bigger and bigger doing that create problems, specially when you are working with a REST api. Because the Structure of an Object generated after consuming a particular REST api is not defined within the project in the above approach, so developers allways have to refer to the Documentation, This is not a problem with a smaller projects but when things are getting bigger dayanamically typed language like javascript create more problem of maintaining the codebase than any other typed language, so it is always better to work with classes ( prototype or constractor notation )
 ##### But!!
- This create problems like how to instantiate objects from the json, then developers will have to manually generate object treee because Javascript does not have something cool like Gson or Jackson type of deserializers that can create an instance out of JSON
+ This create problems like how to instantiate objects from the json, then developers will have to manually generate object treee because Javascript does not have something cool like Gson or Jackson type of deserializers/serializers that can create an instance out of JSON
  
   What is ngJSClass ?
   -----------
-Jsclass in an angular module which aimed to solve this problem, it allowes you to directly populate Instance out of JSON vice-versa,  Current version is 1.0 and this needs lot of improvements before using in production
+Jsclass in an angular module which aimed to solve the above problem, it allowes you to directly populate Instanceds out of JSON vice versa,  Current version is 1.0 and this needs lot of improvements before using in production
 
  How to Use
  -----------
