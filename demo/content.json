@@ -1,0 +1,45 @@
+{
+	"name": "Jone Banda",
+	"age": 99,
+	"address": "11/1 Junda Road Angoda",
+	"job": "Computer kota",
+	"friends": [{
+		"name": "Sirimal",
+		"age": "101",
+		"Address": "11/2 Junda Road Angoda",
+		"speaks": "hindi (these days)"
+	}, {
+		"name": "Sirimal 1",
+		"age": "103",
+		"Address": "11/2 Junda Road Angoda (allapu wata)",
+		"speaks": "urdu (these days)"
+	}],
+	"school": {
+		"name": "Angoda Central",
+		"n_of_students": 2000,
+		"Rank": 5,
+		"IsPosh": false
+	},
+	"hobbies": ["CRICKE", "FOOTBALL"],
+	"loves": [{
+		"name": "sumana",
+		"age": 21,
+		"loves": [{
+			"name": "Kamal",
+			"age": 21,
+			"loves": [{
+				"name": "Geetha",
+				"age": 24,
+				"loves": [{
+					"name": "Jone Banda",
+					"age": 99,
+					"loves": []
+				}]
+			}]
+		}]
+	}, {
+		"name": "Angelina jolie",
+		"age": 123,
+		"loves": []
+	}]
+}

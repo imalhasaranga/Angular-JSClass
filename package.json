@@ -1,0 +1,26 @@
+{
+  "name": "angular-jsclass",
+  "version": "1.0.0",
+  "description": "angular-jsclass is an opensource javascript module that can do serialize and deserialize angular class (created using prototype pattern) object to (and from) JSON, this project is similar to googles gson lib in java space ",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^0.11.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://imalhasaranga@github.com/imalhasaranga/Angular-JSClass.git"
+  },
+  "author": "imal hasaranga perera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imalhasaranga/Angular-JSClass/issues"
+  },
+  "homepage": "https://github.com/imalhasaranga/Angular-JSClass#readme"
+}

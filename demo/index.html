@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app="demo">
+
+<head>
+    <title></title>
+</head>
+
+<body ng-controller="democontroller">
+    <h3 style="text-align:center">Life Of {{jone.getName()}}</h3>
+    <ul>
+        <li>Age : {{jone.getAge()}}</li>
+        <li>Address : {{jone.getAddress()}}</li>
+        <li>Job : {{jone.getJob()}}</li>
+        <li>Nuber of Friends : {{jone.getFriends().length}}</li>
+        <li>
+            <h3>All Friends of {{jone.getName()}}</h3></li>
+        <ul style="margin-left:40px">
+            <li ng-repeat="friend in jone.getFriends()">
+                <ul>
+                    <li>Name : {{friend.getName()}}</li>
+                    <li>age : {{friend.getAge()}}</li>
+                    <li>Address : {{friend.getAddress()}}</li>
+                    <li>Speaks : {{friend.getSpeaks()}}</li>
+                </ul>
+            </li>
+        </ul>
+        <li>
+            <h3>School of {{jone.getName()}}</h3></li>
+        <li>
+            <ul style="margin-left:40px">
+                <li>Name : {{jone.getName()}}</li>
+                <li>Number of Students : {{jone.getN_of_students()}}</li>
+                <li>Rank : {{friend.getRank()}}</li>
+                <li>Posh ? : {{friend.isPosh() ? "Yes" : "No"}}</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Love Life of {{jone.getName()}}</h3></li>
+        <ul style="margin-left:40px">
+            <li ng-repeat="lover in jone.getLoves()">
+                <ul>
+                    <li>Name : {{lover.getName()}}</li>
+                    <li>age : {{lover.getAge()}}</li>
+                    <li>Other Affairs of : {{lover.getName()}} --></li>
+                    <li ng-include= "'lovers.html'"></li>
+                </ul>
+            </li>
+        </ul>
+    </ul>
+   	<br/>
+   	<br/>
+   	<h3>Back To json</h3>
+   	<pre>
+   		{{jonJson}}
+   	</pre>
+
+
+    <script src="vendor/angular.min.js"></script>
+    <script src="vendor/ngJsClass.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/Classes.js"></script>
+    <!-- these classes can be generated using the json, visit http://jsclass.imalhasaranga.com/
+
+</body>
+</html>
