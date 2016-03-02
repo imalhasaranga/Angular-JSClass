@@ -73,8 +73,12 @@ Jsclass in an angular module which aimed to solve the above problem, it allowes 
         	return Student;
         }]);
 
-        /* Define all the other classes below ( if the classe names are not the one that jsone implies then you need to add correct mappings to those classes, see the [Demo Code](https://github.com/imalhasaranga/Angular-JSClass/tree/master/demo)  for more detail code explanation )  */
+        /* Define all the other classes below ( if the classe names are not the one that jsone implies 
+        then you need to add correct mappings to those classes, 
+        see the demo code for more detail code explanation )  */
         ```
+        Run the [Demo folder](https://github.com/imalhasaranga/Angular-JSClass/tree/master/demo) for more understanding
+
 4. Populate an instance Using the Json
 
     ```
