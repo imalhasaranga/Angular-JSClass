@@ -1,0 +1,9 @@
+{
+  "name": "angular-jsclass",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./build/ngJsClass.js",
+  "ignore": [],
+  "dependencies": {
+  }
+}
