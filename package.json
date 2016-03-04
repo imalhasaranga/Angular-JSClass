@@ -2,7 +2,7 @@
   "name": "angular-jsclass",
   "version": "1.0.0",
   "description": "angular-jsclass is an opensource javascript module that can do serialize and deserialize angular class (created using prototype pattern) object to (and from) JSON, this project is similar to googles gson lib in java space ",
-  "main": "index.js",
+  "main": "build/ngJsClass.js",
   "dependencies": {},
   "devDependencies": {
     "grunt": "^0.4.5",
